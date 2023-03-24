@@ -2,18 +2,20 @@
 
 **FinRegistry data buckets:**
 
-| Bucket name                             | File name                                                |
+| Bucket name                               | File name                                                |
+| ------                                    | ------                                                   |
+| detailed_longitudinal_20221118            | detailed_longitudinal_DF10_2022-11-11.csv                | 
+| *detailed_longitudinal_20221118_segments* | NA                                                       |
+| ------                                    | ------                                                   |
+| dvv_20221014                              | dvv_pedigree_withfamid.20220501.tsv                      |
+|                                           | Tulokset_1900-2010_tutkhenk_aviohist.txt.finreg_IDsp     |
+|                                           | dvv_ext_1sqkm_2010.csv                                   |
+|                                           | dvv_ext_1sqkm_2018.csv                                   |
+|                                           | dvv_ext_core.csv                                         |
+|                                           | dvv_ext_municip.csv                                      |
+|                                           | dvv_ext_postalcode.csv                                   |
+| *dvv_20221014_segments*                   | NA                                                       |
 | ------                                  | ------                                                   |
-| detailed_longitudinal_20221118          | detailed_longitudinal_DF10_2022-11-11.csv                | 
-| detailed_longitudinal_20221118_segments | NA                                                       |
-| dvv_20221014                            | dvv_pedigree_withfamid.20220501.tsv                      |
-| dvv_20221014                            | Tulokset_1900-2010_tutkhenk_aviohist.txt.finreg_IDsp     |
-| dvv_20221014                            | dvv_ext_1sqkm_2010.csv                                   |
-| dvv_20221014                            | dvv_ext_1sqkm_2018.csv                                   |
-| dvv_20221014                            | dvv_ext_core.csv                                         |
-| dvv_20221014                            | dvv_ext_municip.csv                                      |
-| dvv_20221014                            | dvv_ext_postalcode.csv                                   |
-| dvv_20221014_segments                   | NA                                                       |
 | endpointer_20221112                     | densified_first_events_DF10_no_omits_2022-09-20.feather  |
 | endpointer_20221112                     | densified_first_events_DF10_no_omits_2022-09-20.txt      |
 | endpointer_20221112                     | longitudinal_endpoints_DF10_2022_09_29.txt.ALL.gz        |
