@@ -18,15 +18,16 @@
 | |                                           | densified_first_events_DF10_no_omits_2022-09-20.txt                    |   |
 | |                                           | longitudinal_endpoints_DF10_2022_09_29.txt.ALL.gz                      |   |
 | 6 | *endpointer_20221112_segments*            |                                                                        |   |
-| 7 | etk_pension_20221014                      | elake_2022-05-10.csv                                                   |   |
+| 7 | endpointer_metadata_20221014            | TO DO                                                                       |   |
+| 8 | etk_pension_20221014                      | elake_2022-05-10.csv                                                   |   |
 | |                                           | elake_2022-05-10.feather                                               |   |
 | |                                           | palkaton_2022-05-10.csv                                                |   |
 | |                                           | palkaton_2022-05-10.feather                                            |   |
 | |                                           | vuansiot_2022-05-12.csv                                                |   |
 | |                                           | vuansiot_2022-05-12.feather                                            |   |
-| 8 | ficc_intensive_care_20221014              | intensive_care_2022-01-20.csv                                          |   |
+| 9 | ficc_intensive_care_20221014              | intensive_care_2022-01-20.csv                                          |   |
 | |                                           | tiss_2022-01-20.csv                                                    |   |
-| 9 | kanta_lab_20233001                        | finregistry_1.csv.finreg_IDs.c4gh                                      |   |
+| 10 | kanta_lab_20233001                        | finregistry_1.csv.finreg_IDs.c4gh                                      |   |
 | |                                           | finregistry_2.csv.finreg_IDs.c4gh                                      |   |
 | |                                           | finregistry_3.csv.finreg_IDs.c4gh                                      |   |
 | |                                           | finregistry_4.csv.finreg_IDs.c4gh                                      |   |
@@ -36,28 +37,44 @@
 | |                                           | finregistry_8.csv.finreg_IDs.c4gh                                      |   |
 | |                                           | finregistry_9.csv.finreg_IDs.c4gh                                      |   |
 | |                                           | finregistry_10.csv.finreg_IDs.c4gh                                     |   |
-| 10 | *kanta_lab_20233001_segments*             |                                                                        |   |
-| 11 | minimal_phenotype_20230110                | minimal_phenotype_20221216.csv                                         |   |
-| 12 | sf_socioeconomic_20230301                 | education_2023-02-28.csv                                               |   |
+| 11 | *kanta_lab_20233001_segments*             |                                                                        |   |
+| 12 | minimal_phenotype_20230110                | minimal_phenotype_20221216.csv                                         |   |
+| 13 | sf_socioeconomic_20230301                 | education_2023-02-28.csv                                               |   |
 | |                                           | education_2023-02-28.feather                                           |   |
 | |                                           | occupation_2023_02_28.csv                                              |   |
 | |                                           | occupation_2023_02_28.feather                                          |   |
 | |                                           | ses_2023_02_28.csv                                                     |   |
 | |                                           | ses_2023_02_28.feather                                                 |   |
-| 13 | *sf_socioeconomic_20230301_segments*      |                                                                        |   |
-| 14 | thl_birth_20221014                        | birth_2022-03-08.csv                                                   |csv2 type |
+| 14 | *sf_socioeconomic_20230301_segments*      |                                                                        |   |
+| 15 | thl_birth_20221014                        | birth_2022-03-08.csv                                                   |csv2 type |
 | |                                           | birth_2022-03-08.feather                                               |   |
-| 15 | thl_cancer_20221014                       | cancer_2022-06-23.csv                                                  |   |
+| 16 | thl_cancer_20221014                       | cancer_2022-06-23.csv                                                  |   |
 | |                                           | cancer_2022-06-23.feather                                              |   |
-| 16 | thl_infectious_diseases_20221014          | infectious_diseases_2022-05-24.csv                                     |   |
+| 17 | thl_infectious_diseases_20221014          | infectious_diseases_2022-05-24.csv                                     |   |
 | |                                           | infectious_diseases_2022-05-24.feather                                 |   |
-| 17 | thl_malformations_20221014                | malformations_anomaly_2022-01-26.csv                                   |   |
+| 18 | thl_malformations_20221014                | malformations_anomaly_2022-01-26.csv                                   |   |
 ||                                          | malformations_basic_2022-01-26.csv                                     |   |
-| 18 |thl_social_assistance_20221014            | 3214_FinRegistry_puolisontoitu_MattssonHannele07122020.csv.finreg_IDsp |   |
+| 19 |thl_social_assistance_20221014            | 3214_FinRegistry_puolisontoitu_MattssonHannele07122020.csv.finreg_IDsp |   |
 ||                                          | 3214_FinRegistry_toitu_MattssonHannele07122020.csv.finreg_IDsp         |   |
-|19 |thl_soshilmo_20221014                     | thl2019_1776_soshilmo.csv.finreg_IDsp                                  |   |
-|20 |thl_vaccination_20221018                  | vaccination_2022-05-10.csv                                             |   |
+|20 |thl_soshilmo_20221014                     | thl2019_1776_soshilmo.csv.finreg_IDsp                                  |   |
+|21 |thl_vaccination_20221018                  | vaccination_2022-05-10.csv                                             |   |
 ||                                          | vaccination_2022-05-10.feather                                         |   |
+
+**Open Data:**
+
+| | Bucket name                             | Description                                                                                 |
+|-- | ------                                  | ------                                                                                      |
+| 22 | Municipality_Population                 | Statistics Finland Open Data https://www.stat.fi/org/avoindata/paikkatietoaineistot_en.html | 
+| 23 | Paavo_postcodes                         | Statistics Finland Open Data https://www.stat.fi/org/avoindata/paikkatietoaineistot_en.html |
+| 24 | Population_grid                         | Statistics Finland Open Data https://www.stat.fi/org/avoindata/paikkatietoaineistot_en.html |
+| 25 | Statistical_areas                       | Statistics Finland Open Data https://www.stat.fi/org/avoindata/paikkatietoaineistot_en.html |
+| 26 | OpenStreetMap_Finland                   | Geofabrik Finland https://download.geofabrik.de/europe/finland.html                         |
+
+**Other**
+
+|| Bucket name                             | File name                                                |
+|--| ------                                  | ------                                                   |
+| 27 | encryption_keys                         | for adding your public c4gh encryption key               | 
 
 **CSC SD Software Installer tool:**
 
@@ -70,22 +87,6 @@ You need to email CSC with your project identifier to get access to this tool.
 | rlibs-for-sd-desktop-1                  | 
 | rlibs-for-sd-desktop-2                  | 
 | bioconductor-for-sd-desktop             | 
-
-**Open Data:**
-
-| | Bucket name                             | Description                                                                                 |
-|-- | ------                                  | ------                                                                                      |
-| 21 | Municipality_Population                 | Statistics Finland Open Data https://www.stat.fi/org/avoindata/paikkatietoaineistot_en.html | 
-| 22 | Paavo_postcodes                         | Statistics Finland Open Data https://www.stat.fi/org/avoindata/paikkatietoaineistot_en.html |
-| 23 | Population_grid                         | Statistics Finland Open Data https://www.stat.fi/org/avoindata/paikkatietoaineistot_en.html |
-| 24 | Statistical_areas                       | Statistics Finland Open Data https://www.stat.fi/org/avoindata/paikkatietoaineistot_en.html |
-| 25 | OpenStreetMap_Finland                   | Geofabrik Finland https://download.geofabrik.de/europe/finland.html                         |
-
-**Other**
-
-| Bucket name                             | File name                                                |
-| ------                                  | ------                                                   |
-| encryption_keys                         | for adding your public c4gh encryption key               | 
 
 **Archived FinRegistry data buckets:**
 
