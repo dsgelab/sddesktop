@@ -45,7 +45,7 @@
 |                                           | ses_2023_02_28.csv                                                     |   |
 |                                           | ses_2023_02_28.feather                                                 |   |
 | *sf_socioeconomic_20230301_segments*      |                                                                        |   |
-| thl_birth_20221014                        | birth_2022-03-08.csv                                                   |csv2 type, Finnish column names |
+| thl_birth_20221014                        | birth_2022-03-08.csv                                                   |csv2 type |
 |                                           | birth_2022-03-08.feather                                               |   |
 | thl_cancer_20221014                       | cancer_2022-06-23.csv                                                  |   |
 |                                           | cancer_2022-06-23.feather                                              |   |
