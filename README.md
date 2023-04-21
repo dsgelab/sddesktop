@@ -1,6 +1,6 @@
 # SD Desktop
 
-**FinRegistry data buckets:**
+## FinRegistry data buckets
 
 | | Bucket name                               | File name                                                              |      |
 |-- | ------                                    | ------                                                                 | ---  |
@@ -60,7 +60,7 @@
 |21 |thl_vaccination_20221018                  | vaccination_2022-05-10.csv                                             |   |
 ||                                          | vaccination_2022-05-10.feather                                         |   |
 
-**Open Data:**
+## Open Data
 
 | | Bucket name                             | Description                                                                                 |
 |-- | ------                                  | ------                                                                                      |
@@ -70,13 +70,13 @@
 | 25 | Statistical_areas                       | Statistics Finland Open Data https://www.stat.fi/org/avoindata/paikkatietoaineistot_en.html |
 | 26 | OpenStreetMap_Finland                   | Geofabrik Finland https://download.geofabrik.de/europe/finland.html                         |
 
-**Other**
+## Other
 
 || Bucket name                             | File name                                                |
 |--| ------                                  | ------                                                   |
 | 27 | encryption_keys                         | for adding your public c4gh encryption key               | 
 
-**CSC SD Software Installer tool:**
+## CSC SD Software Installer tool
 
 You need to email CSC with your project identifier to get access to this tool.
 
@@ -87,6 +87,8 @@ You need to email CSC with your project identifier to get access to this tool.
 | rlibs-for-sd-desktop-1                  | 
 | rlibs-for-sd-desktop-2                  | 
 | bioconductor-for-sd-desktop             | 
+
+<br/><br/>
 
 **Archived FinRegistry data buckets:**
 
