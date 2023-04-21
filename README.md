@@ -90,10 +90,10 @@ You need to email CSC with your project identifier to get access to this tool.
 
 <br/><br/>
 
-**Archived FinRegistry data buckets:**
+<!--**Archived FinRegistry data buckets:**
 
 | Bucket name                             | File name                                                |
 | ------                                  | ------                                                   |
 | minimal_phenotype_20221014              | TO DO                                                    | 
 | sf_socioeconomic_20221124               | TO DO                                                    | 
-| sf_socioeconomic_20221124_segments      | TO DO                                                    | 
+| sf_socioeconomic_20221124_segments      | TO DO                                                    | -->
