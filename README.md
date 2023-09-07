@@ -14,7 +14,7 @@
 | |                                           | marriages_2023-06-14.feather                                           | 
 | |                                           | relatives_2023-06-14.csv                                               |  
 | |                                           | relatives_2023-06-14.feather                                           |  
-| 4 | *dvv_20221014_segments*                 |                                                                        | 
+| 4 | *dvv_segments*                          |                                                                        | 
 | 5 | endpointer                              | densified_first_events_DF10_no_omits_2022-09-20.csv                    | 
 | |                                           | densified_first_events_DF10_no_omits_2022-09-20.feather                |   
 | |                                           | longitudinal_endpoints_no_omits_DF10_2022_09_29.csv                    |   
@@ -58,17 +58,17 @@
 
 | | Bucket name                             | Description                                                                                 |
 |-- | ------                                  | ------                                                                                      |
-| 22 | Municipality_Population                 | Statistics Finland Open Data https://www.stat.fi/org/avoindata/paikkatietoaineistot_en.html | 
-| 23 | Paavo_postcodes                         | Statistics Finland Open Data https://www.stat.fi/org/avoindata/paikkatietoaineistot_en.html |
-| 24 | Population_grid                         | Statistics Finland Open Data https://www.stat.fi/org/avoindata/paikkatietoaineistot_en.html |
-| 25 | Statistical_areas                       | Statistics Finland Open Data https://www.stat.fi/org/avoindata/paikkatietoaineistot_en.html |
-| 26 | OpenStreetMap_Finland                   | Geofabrik Finland https://download.geofabrik.de/europe/finland.html                         |
+| 19 | Municipality_Population                 | Statistics Finland Open Data https://www.stat.fi/org/avoindata/paikkatietoaineistot_en.html | 
+| 20 | Paavo_postcodes                         | Statistics Finland Open Data https://www.stat.fi/org/avoindata/paikkatietoaineistot_en.html |
+| 21 | Population_grid                         | Statistics Finland Open Data https://www.stat.fi/org/avoindata/paikkatietoaineistot_en.html |
+| 22 | Statistical_areas                       | Statistics Finland Open Data https://www.stat.fi/org/avoindata/paikkatietoaineistot_en.html |
+| 23 | OpenStreetMap_Finland                   | Geofabrik Finland https://download.geofabrik.de/europe/finland.html                         |
 
 ## Other
 
 || Bucket name                             | File name                                                |
 |--| ------                                  | ------                                                   |
-| 27 | encryption_keys                         | for adding your public c4gh encryption key               | 
+| 24 | encryption_keys                         | for adding your public c4gh encryption key               | 
 
 ## CSC SD Software Installer tool
 
