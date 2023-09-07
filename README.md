@@ -2,63 +2,57 @@
 
 ## FinRegistry data buckets
 
-| | Bucket name                               | File name                                                              |      |
-|-- | ------                                    | ------                                                                 | ---  |
-| 1 | detailed_longitudinal_20221118            | detailed_longitudinal_DF10_2022-11-11.csv                              |   |
-| 2 | *detailed_longitudinal_20221118_segments* |                                                                        |   |
-| 3 | dvv_20221014                              | dvv_pedigree_withfamid.20220501.tsv                                    |   |
-| |                                           | Tulokset_1900-2010_tutkhenk_aviohist.txt.finreg_IDsp                   |   |
-| |                                           | dvv_ext_1sqkm_2010.csv                                                 |   |
-| |                                           | dvv_ext_1sqkm_2018.csv                                                 |   |
-| |                                           | dvv_ext_core.csv                                                       |   |
-| |                                           | dvv_ext_municip.csv                                                    |   |
-| |                                           | dvv_ext_postalcode.csv                                                 |   |
-| 4 | *dvv_20221014_segments*                   |                                                                        |   |
-| 5 | endpointer_20221112                       | densified_first_events_DF10_no_omits_2022-09-20.feather                |   |
-| |                                           | densified_first_events_DF10_no_omits_2022-09-20.txt                    |   |
-| |                                           | longitudinal_endpoints_DF10_2022_09_29.txt.ALL.gz                      |   |
-| 6 | *endpointer_20221112_segments*            |                                                                        |   |
-| 7 | endpointer_metadata_20221014            | TO DO                                                                       |   |
-| 8 | etk_pension_20221014                      | elake_2022-05-10.csv                                                   |   |
-| |                                           | elake_2022-05-10.feather                                               |   |
-| |                                           | palkaton_2022-05-10.csv                                                |   |
-| |                                           | palkaton_2022-05-10.feather                                            |   |
-| |                                           | vuansiot_2022-05-12.csv                                                |   |
-| |                                           | vuansiot_2022-05-12.feather                                            |   |
-| 9 | ficc_intensive_care_20221014              | intensive_care_2022-01-20.csv                                          |   |
-| |                                           | tiss_2022-01-20.csv                                                    |   |
-| 10 | kanta_lab_20233001                        | finregistry_1.csv.finreg_IDs.c4gh                                      |   |
-| |                                           | finregistry_2.csv.finreg_IDs.c4gh                                      |   |
-| |                                           | finregistry_3.csv.finreg_IDs.c4gh                                      |   |
-| |                                           | finregistry_4.csv.finreg_IDs.c4gh                                      |   |
-| |                                           | finregistry_5.csv.finreg_IDs.c4gh                                      |   |
-| |                                           | finregistry_6.csv.finreg_IDs.c4gh                                      |   |
-| |                                           | finregistry_7.csv.finreg_IDs.c4gh                                      |   |
-| |                                           | finregistry_8.csv.finreg_IDs.c4gh                                      |   |
-| |                                           | finregistry_9.csv.finreg_IDs.c4gh                                      |   |
-| |                                           | finregistry_10.csv.finreg_IDs.c4gh                                     |   |
-| 11 | *kanta_lab_20233001_segments*             |                                                                        |   |
-| 12 | minimal_phenotype_20230110                | minimal_phenotype_20221216.csv                                         |   |
-| 13 | sf_socioeconomic_20230301                 | education_2023-02-28.csv                                               |   |
-| |                                           | education_2023-02-28.feather                                           |   |
-| |                                           | occupation_2023_02_28.csv                                              |   |
-| |                                           | occupation_2023_02_28.feather                                          |   |
-| |                                           | ses_2023_02_28.csv                                                     |   |
-| |                                           | ses_2023_02_28.feather                                                 |   |
-| 14 | *sf_socioeconomic_20230301_segments*      |                                                                        |   |
-| 15 | thl_birth_20221014                        | birth_2022-03-08.csv                                                   |csv2 type |
-| |                                           | birth_2022-03-08.feather                                               |   |
-| 16 | thl_cancer_20221014                       | cancer_2022-06-23.csv                                                  |   |
-| |                                           | cancer_2022-06-23.feather                                              |   |
-| 17 | thl_infectious_diseases_20221014          | infectious_diseases_2022-05-24.csv                                     |   |
-| |                                           | infectious_diseases_2022-05-24.feather                                 |   |
-| 18 | thl_malformations_20221014                | malformations_anomaly_2022-01-26.csv                                   |   |
-||                                          | malformations_basic_2022-01-26.csv                                     |   |
-| 19 |thl_social_assistance_20221014            | 3214_FinRegistry_puolisontoitu_MattssonHannele07122020.csv.finreg_IDsp |   |
-||                                          | 3214_FinRegistry_toitu_MattssonHannele07122020.csv.finreg_IDsp         |   |
-|20 |thl_soshilmo_20221014                     | thl2019_1776_soshilmo.csv.finreg_IDsp                                  |   |
-|21 |thl_vaccination_20221018                  | vaccination_2022-05-10.csv                                             |   |
-||                                          | vaccination_2022-05-10.feather                                         |   |
+| | Bucket name                               | File name                                                              |
+|-- | ------                                  | ------                                                                 | 
+| 1 | detailed_longitudinal_20221118          | detailed_longitudinal_DF10_2022-11-11.csv                              |   
+| 2 | *detailed_longitudinal_20221118_segments* |                                                                      |   
+| 3 | dvv                                     | dvv_pedigree_withfamid_2023-06-27.csv                                  |   
+| |                                           | Index_RelativePair_basic_2023-06-27.csv                                |
+| |                                           | living_history_2023-06-14.csv                                          |   
+| |                                           | living_history_2023-06-14.feather                                      |  
+| |                                           | marriages_2023-06-14.csv                                               | 
+| |                                           | marriages_2023-06-14.feather                                           | 
+| |                                           | relatives_2023-06-14.csv                                               |  
+| |                                           | relatives_2023-06-14.feather                                           |  
+| 4 | *dvv_20221014_segments*                 |                                                                        | 
+| 5 | endpointer                              | densified_first_events_DF10_no_omits_2022-09-20.csv                    | 
+| |                                           | densified_first_events_DF10_no_omits_2022-09-20.feather                |   
+| |                                           | longitudinal_endpoints_no_omits_DF10_2022_09_29.csv                    |   
+| 6 | *endpointer_segments*                   |                                                                        |   
+| 7 | etk_pension                             | consumer_price_index_1972_2021.csv                                     |   
+| |                                           | income_2023-07-20.csv                                                  | 
+| |                                           | income_2023-07-20.feather                                              |
+| |                                           | pension_2023-07-20.csv                                                 |   
+| |                                           | pension_2023-07-20.feather                                             | 
+| |                                           | unpaid_2023-07-20.csv                                                  |  
+| |                                           | unpaid_2023-07-20.feather                                              | 
+| 8 | kanta_lab                               | TO DO                                                                  |   
+| 9 | *kanta_lab_segments*                    |                                                                        |   
+| 10 | minimal_phenotype                      | minimal_phenotype_2023-08-14.csv                                       | 
+| |                                           | minimal_phenotype_2023-08-14.feather                                   | 
+| 11 | sf_socioeconomic_20230301              | education_2023-02-28.csv                                               | 
+| |                                           | education_2023-02-28.feather                                           | 
+| |                                           | occupation_2023_02_28.csv                                              | 
+| |                                           | occupation_2023_02_28.feather                                          | 
+| |                                           | ses_2023_02_28.csv                                                     | 
+| |                                           | ses_2023_02_28.feather                                                 |   
+| 12 | *sf_socioeconomic_20230301_segments*   |                                                                        |   
+| 13 | thl_birth                              | birth_2023-06-26.csv                                                   |   
+| |                                           | birth_2023-06-26.feather                                               |   
+| 14 | thl_infectious_diseases                | infectious_diseases_2023-06-26.csv                                     |   
+| |                                           | infectious_diseases_2023-06-26.feather                                 |   
+| 15 | thl_malformations                      | malformations_anomaly_2023-06-26.csv                                   |   
+| |                                           | malformations_anomaly_2023-06-26.feather                               |   
+| |                                           | malformations_basic_2023-06-26.csv                                     |   
+| |                                           | malformations_basic_2023-06-26.feather                                 |   
+| 16 | thl_social_assistance                  | provision_2023-06-19.csv                                               |   
+| |                                           | provision_2023-06-19.feather                                           |   
+| |                                           | spouse_provision_2023-06-19.csv                                        |   
+| |                                           | spouse_provision_2023-06-19.feather                                    |   
+| 17 | thl_soshilmo                           | soshilmo_2023-06-19.csv                                                |   
+| |                                           | soshilmo_2023-06-19.feather                                            |   
+| 18 | thl_vaccination                        | vaccination_2023-06-26.csv                                             |   
+| |                                           | vaccination_2023-06-26.feather                                         |   
 
 ## Open Data
 
